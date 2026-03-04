@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.adempiere.pipo.feature"
+      label="Pipo-feature"
+      version="12.0.0.202603030709"
+      provider-name="iDempiere Community">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <plugin
+         id="org.adempiere.pipo"
+         download-size="96"
+         install-size="197"
+         version="12.0.0.202603030709"
+         unpack="false"/>
+
+   <plugin
+         id="org.adempiere.pipo.handlers"
+         download-size="214"
+         install-size="490"
+         version="12.0.0.202603030709"
+         unpack="false"/>
+
+   <plugin
+         id="org.adempiere.plugin.utils"
+         download-size="46"
+         install-size="94"
+         version="12.0.0.202603030709"
+         unpack="false"/>
+
+</feature>

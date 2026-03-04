@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.idempiere.webservices.feature"
+      label="Web Service Feature"
+      version="12.0.0.202603030709"
+      provider-name="iDempiere">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <plugin
+         id="org.idempiere.webservices"
+         version="12.0.0.202603030709"/>
+
+   <plugin
+         id="stax2-api"
+         version="4.2.1"/>
+
+   <plugin
+         id="org.apache.commons.discovery"
+         version="0.5.0"/>
+
+   <plugin
+         id="org.apache.ws.xmlschema.core"
+         version="2.3.1"/>
+
+   <plugin
+         id="org.apache.neethi"
+         version="3.2.0"/>
+
+   <plugin
+         id="org.apache.cxf.cxf-core"
+         version="3.6.5"/>
+
+   <plugin
+         id="org.apache.cxf.cxf-rt-frontend-jaxrs"
+         version="3.6.5"/>
+
+   <plugin
+         id="org.apache.cxf.cxf-rt-frontend-jaxws"
+         version="3.6.5"/>
+
+   <plugin
+         id="org.apache.cxf.cxf-rt-bindings-soap"
+         version="3.6.5"/>
+
+   <plugin
+         id="org.apache.cxf.cxf-rt-wsdl"
+         version="3.6.5"/>
+
+   <plugin
+         id="org.apache.cxf.cxf-rt-bindings-xml"
+         version="3.6.5"/>
+
+   <plugin
+         id="org.apache.cxf.cxf-rt-databinding-jaxb"
+         version="3.6.5"/>
+
+   <plugin
+         id="org.apache.cxf.cxf-rt-frontend-simple"
+         version="3.6.5"/>
+
+   <plugin
+         id="org.apache.cxf.cxf-rt-transports-http"
+         version="3.6.5"/>
+
+   <plugin
+         id="org.apache.cxf.cxf-rt-ws-addr"
+         version="3.6.5"/>
+
+   <plugin
+         id="org.apache.cxf.cxf-rt-ws-policy"
+         version="3.6.5"/>
+
+   <plugin
+         id="org.apache.cxf.cxf-rt-rs-service-description"
+         version="3.6.5"/>
+
+   <plugin
+         id="org.apache.cxf.cxf-rt-security"
+         version="3.6.5"/>
+
+   <plugin
+         id="org.glassfish.hk2.api"
+         version="2.6.1"/>
+
+   <plugin
+         id="org.glassfish.hk2.locator"
+         version="2.6.1"/>
+
+   <plugin
+         id="org.glassfish.hk2.osgi-resource-locator"
+         version="1.0.3"/>
+
+   <plugin
+         id="org.glassfish.hk2.utils"
+         version="2.6.1"/>
+
+   <plugin
+         id="org.glassfish.jersey.core.jersey-common"
+         version="2.34.0"/>
+
+   <plugin
+         id="org.glassfish.jersey.core.jersey-server"
+         version="2.34.0"/>
+
+   <plugin
+         id="org.glassfish.jersey.core.jersey-client"
+         version="2.34.0"/>
+
+   <plugin
+         id="org.glassfish.jersey.media.jersey-media-json-jackson"
+         version="2.34.0"/>
+
+   <plugin
+         id="jakarta.xml.ws-api"
+         version="2.3.3.v202109010034"/>
+
+   <plugin
+         id="jakarta.ws.rs-api"
+         version="2.1.6"/>
+
+   <plugin
+         id="jakarta.jws-api"
+         version="2.1.0"/>
+
+   <plugin
+         id="jakarta.xml.soap-api"
+         version="1.4.2"/>
+
+   <plugin
+         id="org.glassfish.jersey.ext.jersey-entity-filtering"
+         version="2.34.0"/>
+
+   <plugin
+         id="org.glassfish.jersey.containers.jersey-container-servlet-core"
+         version="2.34.0"/>
+
+   <plugin
+         id="wrapped.org.apache.cxf.cxf-rt-ws-transfer"
+         version="3.6.5"/>
+
+   <plugin
+         id="wrapped.org.springframework.spring-aop"
+         version="5.3.27"/>
+
+   <plugin
+         id="wrapped.org.springframework.spring-beans"
+         version="5.3.27"/>
+
+   <plugin
+         id="wrapped.org.springframework.spring-context"
+         version="5.3.27"/>
+
+   <plugin
+         id="wrapped.org.springframework.spring-context-support"
+         version="5.3.27"/>
+
+   <plugin
+         id="wrapped.org.springframework.spring-core"
+         version="5.3.27"/>
+
+   <plugin
+         id="wrapped.org.springframework.spring-expression"
+         version="5.3.27"/>
+
+   <plugin
+         id="wrapped.org.springframework.spring-web"
+         version="5.3.27"/>
+
+   <plugin
+         id="wrapped.wsdl4j.wsdl4j"
+         version="1.6.3"/>
+
+   <plugin
+         id="org.idempiere.webservices.resources"
+         version="12.0.0.202603030709"/>
+
+   <plugin
+         id="javassist"
+         version="3.25.0.GA"/>
+
+   <plugin
+         id="org.apache.cxf.cxf-rt-rs-extension-providers"
+         version="3.6.3"/>
+
+   <plugin
+         id="org.apache.cxf.cxf-rt-databinding-xmlbeans"
+         version="3.6.3"/>
+
+</feature>

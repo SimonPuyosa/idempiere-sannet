@@ -3,7 +3,7 @@
 <repository name='Bundle pool' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
   <properties size='2'>
     <property name='p2.system' value='true'/>
-    <property name='p2.timestamp' value='1772624933270'/>
+    <property name='p2.timestamp' value='1772522030358'/>
   </properties>
   <mappings size='3'>
     <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
@@ -11,6 +11,11 @@
     <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
   </mappings>
   <artifacts size='422'>
+    <artifact classifier='osgi.bundle' id='org.adempiere.base.callout' version='12.0.0.202603030709'>
+      <properties size='1'>
+        <property name='download.size' value='130691'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='bcpg' version='1.81.0'>
       <properties size='1'>
         <property name='download.size' value='728364'/>
@@ -51,18 +56,18 @@
         <property name='download.size' value='145053'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='com.fasterxml.jackson.jaxrs.jackson-jaxrs-json-provider' version='2.15.4'>
+    <artifact classifier='org.eclipse.update.feature' id='org.adempiere.server.feature' version='12.0.0.202603030709'>
       <properties size='1'>
-        <property name='download.size' value='16636'/>
-      </properties>
-    </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='org.adempiere.pipo.feature' version='12.0.0.202603041146'>
-      <properties size='1'>
-        <property name='download.size' value='748'/>
+        <property name='download.size' value='1489'/>
       </properties>
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.fasterxml.jackson.jaxrs.jackson-jaxrs-json-provider' version='2.15.4'>
+      <properties size='1'>
+        <property name='download.size' value='16636'/>
+      </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.apache.felix.gogo.command' version='1.1.2'>
       <properties size='3'>
@@ -76,15 +81,13 @@
         <property name='download.size' value='75890'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.adempiere.pipo.handlers' version='12.0.0.202603041146'>
+    <artifact classifier='org.eclipse.update.feature' id='org.idempiere.zk.feature' version='12.0.0.202603030709'>
       <properties size='1'>
-        <property name='download.size' value='219704'/>
+        <property name='download.size' value='809'/>
       </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.idempiere.zk.pivot' version='12.0.0.202603041146'>
-      <properties size='1'>
-        <property name='download.size' value='36042'/>
-      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
     </artifact>
     <artifact classifier='osgi.bundle' id='com.sun.xml.bind.jaxb-impl' version='2.3.5'>
       <properties size='1'>
@@ -118,38 +121,12 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='wrapped.xalan.xalan' version='2.7.3'>
       <properties size='1'>
-        <property name='download.size' value='3483937'/>
+        <property name='download.size' value='3483935'/>
       </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.adempiere.replication.server' version='12.0.0.202603041146'>
-      <properties size='1'>
-        <property name='download.size' value='17084'/>
-      </properties>
-    </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='org.idempiere.webservices.feature' version='12.0.0.202603041146'>
-      <properties size='1'>
-        <property name='download.size' value='1216'/>
-      </properties>
-      <repositoryProperties size='1'>
-        <property name='artifact.folder' value='true'/>
-      </repositoryProperties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.idempiere.zk.iceblue_c.theme' version='12.0.0.202603041146'>
-      <properties size='1'>
-        <property name='download.size' value='329318'/>
-      </properties>
-      <repositoryProperties size='1'>
-        <property name='artifact.folder' value='true'/>
-      </repositoryProperties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.transport.ecf' version='1.4.100.v20230630-1506'>
       <properties size='1'>
         <property name='download.size' value='49132'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.adempiere.pipo' version='12.0.0.202603041146'>
-      <properties size='1'>
-        <property name='download.size' value='98743'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.apache.cxf.cxf-rt-databinding-xmlbeans' version='3.6.3'>
@@ -207,14 +184,6 @@
         <property name='download.size' value='76154'/>
       </properties>
     </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='org.adempiere.base.feature' version='12.0.0.202603041146'>
-      <properties size='1'>
-        <property name='download.size' value='2521'/>
-      </properties>
-      <repositoryProperties size='1'>
-        <property name='artifact.folder' value='true'/>
-      </repositoryProperties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='wrapped.dev.samstevens.totp.totp' version='1.7.1'>
       <properties size='1'>
         <property name='download.size' value='21275'/>
@@ -230,9 +199,9 @@
         <property name='download.size' value='342535'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.idempiere.jetty.osgi.boot.fragment' version='12.0.0.202603041146'>
+    <artifact classifier='osgi.bundle' id='org.adempiere.report.jasper.library' version='12.0.0.202603030709'>
       <properties size='1'>
-        <property name='download.size' value='4389'/>
+        <property name='download.size' value='4021258'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='javax.websocket-api' version='1.1.0'>
@@ -243,11 +212,6 @@
     <artifact classifier='osgi.bundle' id='org.apache.xml.resolver' version='1.2.0.v20220715-1206'>
       <properties size='1'>
         <property name='download.size' value='104128'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.idempiere.zk.billboard.chart' version='12.0.0.202603041146'>
-      <properties size='1'>
-        <property name='download.size' value='25338'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.equinox.metatype' version='1.6.300.v20230120-0604'>
@@ -262,7 +226,7 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='wrapped.org.apache.activemq.activemq-openwire-legacy' version='5.16.7'>
       <properties size='1'>
-        <property name='download.size' value='694211'/>
+        <property name='download.size' value='694212'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.osgi.service.provisioning' version='1.2.0.201505202024'>
@@ -277,6 +241,11 @@
         <property name='download.size' value='75446'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.idempiere.jetty.osgi.boot.fragment' version='12.0.0.202603030709'>
+      <properties size='1'>
+        <property name='download.size' value='4387'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='slf4j.api' version='2.0.17'>
       <properties size='1'>
         <property name='download.size' value='69908'/>
@@ -284,7 +253,7 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='wrapped.io.opencensus.opencensus-contrib-http-util' version='0.28.0'>
       <properties size='1'>
-        <property name='download.size' value='24182'/>
+        <property name='download.size' value='24183'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='com.sun.xml.fastinfoset.FastInfoset' version='2.0.0'>
@@ -319,7 +288,7 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='wrapped.org.glassfish.jaxb.txw2' version='2.3.5'>
       <properties size='1'>
-        <property name='download.size' value='72662'/>
+        <property name='download.size' value='72663'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.jvnet.staxex.stax-ex' version='1.8.3'>
@@ -463,10 +432,13 @@
         <property name='download.size' value='30873'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.idempiere.zk.datatable' version='12.0.0.202603041146'>
+    <artifact classifier='org.eclipse.update.feature' id='org.idempiere.webservices.feature' version='12.0.0.202603030709'>
       <properties size='1'>
-        <property name='download.size' value='513113'/>
+        <property name='download.size' value='1212'/>
       </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
     </artifact>
     <artifact classifier='osgi.bundle' id='zkwebfragment' version='10.0.1'>
       <properties size='1'>
@@ -480,17 +452,12 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='wrapped.com.google.http-client.google-http-client-gson' version='1.39.2.sp1'>
       <properties size='1'>
-        <property name='download.size' value='10993'/>
+        <property name='download.size' value='10994'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='wrapped.org.springframework.spring-expression' version='5.3.27'>
       <properties size='1'>
-        <property name='download.size' value='296248'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.idempiere.ui.sso.oidc' version='12.0.0.202603041146'>
-      <properties size='1'>
-        <property name='download.size' value='1629222'/>
+        <property name='download.size' value='296246'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='wrapped.org.apache.activemq.activemq-jaas' version='5.16.7'>
@@ -510,7 +477,7 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='wrapped.net.sourceforge.barbecue.barbecue' version='1.5.0.beta1'>
       <properties size='1'>
-        <property name='download.size' value='92880'/>
+        <property name='download.size' value='92879'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.jetty.jmx' version='12.0.25'>
@@ -526,11 +493,6 @@
     <artifact classifier='osgi.bundle' id='org.eclipse.equinox.servletbridge' version='1.6.300.v20230622-2056'>
       <properties size='1'>
         <property name='download.size' value='51228'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.idempiere.zk.extra' version='12.0.0.202603041146'>
-      <properties size='1'>
-        <property name='download.size' value='1299182'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.apache.pdfbox' version='2.0.22.bcfips'>
@@ -558,13 +520,10 @@
         <property name='download.size' value='696143'/>
       </properties>
     </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='org.adempiere.replication.feature' version='12.0.0.202603041146'>
+    <artifact classifier='osgi.bundle' id='org.adempiere.report.jasper' version='12.0.0.202603030709'>
       <properties size='1'>
-        <property name='download.size' value='714'/>
+        <property name='download.size' value='55659'/>
       </properties>
-      <repositoryProperties size='1'>
-        <property name='artifact.folder' value='true'/>
-      </repositoryProperties>
     </artifact>
     <artifact classifier='osgi.bundle' id='com.sun.xml.bind.external.relaxng-datatype' version='2.3.5'>
       <properties size='1'>
@@ -576,6 +535,14 @@
         <property name='download.size' value='57548'/>
       </properties>
     </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.idempiere.hazelcast.service.feature' version='12.0.0.202603030709'>
+      <properties size='1'>
+        <property name='download.size' value='726'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='net.sf.jasperreports.engine' version='6.21.0'>
       <properties size='1'>
         <property name='download.size' value='5766406'/>
@@ -586,9 +553,14 @@
         <property name='download.size' value='22987'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.adempiere.payment.processor' version='12.0.0.202603030709'>
+      <properties size='1'>
+        <property name='download.size' value='174256'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='wrapped.org.apache.lucene.lucene-analyzers-common' version='8.4.1'>
       <properties size='1'>
-        <property name='download.size' value='1694948'/>
+        <property name='download.size' value='1694949'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.glassfish.gmbal.gmbal' version='4.0.3'>
@@ -600,14 +572,6 @@
       <properties size='1'>
         <property name='download.size' value='75569'/>
       </properties>
-    </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='org.idempiere.equinox.p2.director.feature' version='12.0.0.202603041146'>
-      <properties size='1'>
-        <property name='download.size' value='667'/>
-      </properties>
-      <repositoryProperties size='1'>
-        <property name='artifact.folder' value='true'/>
-      </repositoryProperties>
     </artifact>
     <artifact classifier='osgi.bundle' id='com.sun.xml.ws.policy' version='2.7.10'>
       <properties size='1'>
@@ -664,6 +628,11 @@
         <property name='download.size' value='1370788'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.idempiere.webservices.resources' version='12.0.0.202603030709'>
+      <properties size='1'>
+        <property name='download.size' value='18946'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.jetty.http3.qpack' version='12.0.25'>
       <properties size='1'>
         <property name='download.size' value='87059'/>
@@ -677,6 +646,11 @@
     <artifact classifier='osgi.bundle' id='jakarta.xml.soap-api' version='1.4.2'>
       <properties size='1'>
         <property name='download.size' value='36922'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.adempiere.replication' version='12.0.0.202603030709'>
+      <properties size='1'>
+        <property name='download.size' value='40600'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.jetty.servlet-api' version='4.0.6'>
@@ -714,6 +688,11 @@
         <property name='download.size' value='50962'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.adempiere.replication.server' version='12.0.0.202603030709'>
+      <properties size='1'>
+        <property name='download.size' value='17083'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='com.google.guava.failureaccess' version='1.0.1'>
       <properties size='1'>
         <property name='download.size' value='4617'/>
@@ -734,6 +713,11 @@
         <property name='pgp.signatures' value='-----BEGIN PGP SIGNATURE-----&#xA;&#xA;iQIzBAABCAAdFiEEnjBEBxt1jry35FZzcA5PObwFNksFAmT0nb4ACgkQcA5PObwF&#xA;Nkv9LA/+LRLGQo5nyjN4EytiNPicimi5/2cR8Y/gYMaicsAzoHfCPIAp3uIJSIeb&#xA;vOykLFBqI56LrIVZVzzZv3mzZvdOOgR9/JWkuFquX2H35TimtjLEekGgxkTd3p68&#xA;KfKclVSKsXq+4vLLPiKbL65Suh/ZWUffqrj0wO4XOG9yROoFLk7hT8/A8EBwVOTV&#xA;oPnalt8VK3f8t2WgVzL08Hb133xfxJM5vtTjaxUVXhfNFnfzPQGMJA2i0/oidGs9&#xA;sNSwH+fXGa/gBt6PMsIez4Up0U1p+cRQiN04vv5Crv4mxNTIrAB6ACGeKMNRdFjh&#xA;9XPhAO2nSoJRZb7tTRiOZSR/rBkNYzTCJykBMoBimDp+znR8dhc1jE6JP9pEqBL3&#xA;TwlerQndZsis4QMWDZuWQB+3N9lYt+R5Ip4P2l/LD/KNiqAoqlQE7NSjNi6VpEHC&#xA;voc89/+M5wZoDJnRZsVN+KFYlV3PzdN3+nRdvOrBh3ChfJg4XVbwyhYgOlfB2tym&#xA;fRCDgoPtg5s+Nwx32Bu+VzKLlqwSCzpxIA7AZINLWoWj+SmajlCFzGfgELiynlhW&#xA;eplA6rwOEGCyDsOKsfmpMbjvdIQf67TtWh58gZqcvbtrRcq9neGCcKSiRpzQ4AjC&#xA;+JsDzzjPfzztgsBO+EDqX4Dfp/NFuAGrQekSiQce41MLHN6fLbk=&#xA;=aou4&#xA;-----END PGP SIGNATURE-----'/>
         <property name='pgp.publicKeys' value='-----BEGIN PGP MESSAGE-----&#xA;Version: BCPG v1.77.00&#xA;&#xA;uQINBFhaXPsBEAC3bR7f5euHbpIDDTuFYHPI0+S5X0DhuqcGBUL2HSFhWMwIlfsA&#xA;aO+pt7GyfXLUkTmzugwmwO+sOW2QmwEZQcK2z3BrcjytZophZ9AUajbAjnadSH6U&#xA;XCMmfExVVnaYSfl/+Uub42szQE/r3gCRIz6M6clVVAjpFv4G/mumfQUV/XzLoUEY&#xA;XTgwTokFJ97R+hDbHvBEBrUT8M6zHP5DhN3EBug3qb6wZVOa/+HEX3M+7k4jVT/p&#xA;pNumw0acg0DDoSNQ13VsRV6sV0XE4zr3Zfs84f8xCgXpEMs4U6DZGqs3iJVVtbRf&#xA;0oL0fgcxNgRrmbCrBfbXYfrS4u+fJ0vB+Wrflv9eNA3i6TtVL6uYpZy9uO2B1olK&#xA;VzfEhsgB3QrULB4jVHZjIXGe4ILn45ndMtAeY4M91wyobgG99Xl+1vPHrxV0+2zR&#xA;P66J3puyxiKE2B7gd7hib54CB3lYyrG1S+K1kZGCI1IFKCnqmTJXY0tKoLAASS3v&#xA;tDcknXenzR5RVSpWTDuxtusekfL0Bw8pCBoz9L4Hex8Q1j//D5CZlqcg1NKFfmBZ&#xA;7ta9PTuJcpOsz/LaPG/0VHYt/QAv5o4eeZESl7iZyM4/0NFh2s/rq0R8Z9yVSSkI&#xA;vvO8d8XGZ65NTm3T4NFuEihn+AEm+zg4KiGdYBEZvs8QQoW9e1+MMN8xnwARAQAB&#xA;iQREBBgBCAAPAhsCBQJhuzR9BQkSxtkCAinBXSAEGQEIAAYFAlhaXPsACgkQcA5P&#xA;ObwFNkunSw//SRR1tGS1pDj2jonLpR0wPilCphS6ANv895yvlg6rHG4nKi4hQ0Jz&#xA;ZxhGCwkgxEkRaKiyLfEiTihETkF161AqLPhyvE8LuQ1AG+A+tUnR8/T3gKE8t/m2&#xA;/UtScZwN1QEQVc/uG7MTrbZ2ngXfH65k3fzhjy95AnJHAswu2vic1hzDi77HlQpN&#xA;0O3adJuU/jfdu1RxNE0MRt8MFEjsTFwSBVm6lDxgcZV+qjRLGQznTyLF5/AyCI7Z&#xA;4z9xHZPKFq1eHzqevifNiqfb8KX22sHKOSdnVBzBq/UxbT5jIbNSRhD91FjtZD7Z&#xA;6wi3POsB/9RWZBldCov4ZEajmxFzxpx4RAqYOSIkEor9ZtRGbZuWvTie4vFIur7T&#xA;f543mE6nxKcggExNp4MTyOd1scMc9oyczH561OTdHOCYEyoCwpG9N2Hb1/MDnWSi&#xA;HKG451CvdrE5FHcPZKjp/nHUcRw/WQC3bgj6ScAay64EKC5S9tW+Wp85Oyyvj+M7&#xA;lBzOxp19nESpfC++fzBAQPMxtD8EvrZTxqFSJxMOH9bhzB8+MFt08tmYb5SwoYi4&#xA;C8JJ+wZgNetJKK+j07fvyMUChH/SbkCVszMiiSEjHA2Kk0LMVYKS/OLJU7i7tZXV&#xA;aJ078QEeTDy5hSzsutd+orlFkR9+mgr1HUh0UgYlofTfEi7bLDeSr0cJELbTq5vM&#xA;ZBKCicIP/irazYBVKw0SluhHtjzRcs5WIdH5bVPsEE87+iUc4daONWdVIhLdokxt&#xA;OWlrEmZFLKqq9Z8fzvlf5LAQMOBkMAkl0z2ej4KG7zrjWyqDgysEI2WBlqTAFSeL&#xA;+89Kc9BzJE9heYW8EfpXbNfOnKnAYWsbhcomSxVQ/jBIuyLBg/0gYKpBNx8HC6v9&#xA;xNH0Ja+wM/7w3JC1aIwMYJn1yF2ykUYS+BoTCU7TA8r43pHg4I4Fz+Y2P5RLk+RJ&#xA;I4kJezDNiJOpIcr/nKTPxMGUzMtWlGyAJ7LkyOZCtQXhtXwaT8grjtHzlwlGrpgD&#xA;Rtf7wWjzEWeaQSegTFM9Mid+09kCp0PkJvveg8wJCuoVboNOto0O5rQsUczjXxiW&#xA;kXYlHGeQL4rWc1zP7F1n4DEwDbVZC7jOn/80l3x4LcKuhc86gP4L5HKbdjn5GcQ0&#xA;3RVLl1WVTQCdpr0+am28hl9XpyHdlWwSEmqqoUnjGv5B8RClocBRS4ECPPZCVSBl&#xA;yK8eDgRww9Fu1EFq4xkq5fGj4YUOAIm756iW41NQ3VnPYbom/J27iFFN8+h92CSb&#xA;KAqhmRwQh+GGo0eGCXmPHyQ/KCHTvnTZCFBUvabm3rVNFaDO+RvmwPwNCRz0DYzG&#xA;paeMOGo4nMMGbzdhgfJ/X5Ed1/Mqz8egHhGIO94ebKEN5ZtJjAOK&#xA;=xtSl&#xA;-----END PGP MESSAGE-----'/>
         <property name='download.size' value='85659'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.idempiere.zk.billboard.chart' version='12.0.0.202603030709'>
+      <properties size='1'>
+        <property name='download.size' value='25336'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.osgi.service.device' version='1.1.1.202109301733'>
@@ -802,7 +786,7 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='wrapped.org.apache.xmlbeans.xmlbeans' version='5.0.3'>
       <properties size='1'>
-        <property name='download.size' value='2223011'/>
+        <property name='download.size' value='2223009'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.apache.geronimo.specs.geronimo-jms_1.1_spec' version='1.1.1'>
@@ -840,6 +824,11 @@
         <property name='download.size' value='7631947'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.adempiere.pipo' version='12.0.0.202603030709'>
+      <properties size='1'>
+        <property name='download.size' value='98741'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.jetty.ee8.glassfish.jstl' version='12.0.25'>
       <properties size='1'>
         <property name='download.size' value='2781'/>
@@ -865,36 +854,18 @@
         <property name='download.size' value='48841'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.idempiere.tablepartition' version='12.0.0.202603041146'>
+    <artifact classifier='osgi.bundle' id='org.idempiere.felix.webconsole' version='12.0.0.202603030709'>
       <properties size='1'>
-        <property name='download.size' value='14067'/>
-      </properties>
-    </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='org.idempiere.zk.feature' version='12.0.0.202603041146'>
-      <properties size='1'>
-        <property name='download.size' value='811'/>
+        <property name='download.size' value='13805'/>
       </properties>
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.idempiere.webservices.resources' version='12.0.0.202603041146'>
-      <properties size='1'>
-        <property name='download.size' value='18948'/>
-      </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='groovy-json' version='3.0.8'>
       <properties size='1'>
         <property name='download.size' value='133033'/>
       </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.idempiere.zk.breeze.theme' version='12.0.0.202603041146'>
-      <properties size='1'>
-        <property name='download.size' value='321089'/>
-      </properties>
-      <repositoryProperties size='1'>
-        <property name='artifact.folder' value='true'/>
-      </repositoryProperties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.jetty.ee8.proxy' version='12.0.25'>
       <properties size='1'>
@@ -918,9 +889,9 @@
         <property name='download.size' value='15077'/>
       </properties>
     </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='org.adempiere.payment.processor.feature' version='12.0.0.202603041146'>
+    <artifact classifier='org.eclipse.update.feature' id='org.idempiere.equinox.p2.director.feature' version='12.0.0.202603030709'>
       <properties size='1'>
-        <property name='download.size' value='723'/>
+        <property name='download.size' value='664'/>
       </properties>
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
@@ -941,14 +912,6 @@
         <property name='download.size' value='31094'/>
       </properties>
     </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='org.adempiere.server.feature' version='12.0.0.202603041146'>
-      <properties size='1'>
-        <property name='download.size' value='1492'/>
-      </properties>
-      <repositoryProperties size='1'>
-        <property name='artifact.folder' value='true'/>
-      </repositoryProperties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='com.sun.xml.messaging.saaj.impl' version='1.5.3'>
       <properties size='1'>
         <property name='download.size' value='456968'/>
@@ -958,6 +921,14 @@
       <properties size='1'>
         <property name='download.size' value='90184'/>
       </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.adempiere.base.feature' version='12.0.0.202603030709'>
+      <properties size='1'>
+        <property name='download.size' value='2519'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
     </artifact>
     <artifact classifier='osgi.bundle' id='net.sf.supercsv.super-csv' version='2.4.0'>
       <properties size='1'>
@@ -969,14 +940,6 @@
         <property name='download.size' value='3200097'/>
       </properties>
     </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='org.idempiere.felix.webconsole.feature' version='12.0.0.202603041146'>
-      <properties size='1'>
-        <property name='download.size' value='766'/>
-      </properties>
-      <repositoryProperties size='1'>
-        <property name='artifact.folder' value='true'/>
-      </repositoryProperties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='zel' version='10.0.1'>
       <properties size='1'>
         <property name='download.size' value='253669'/>
@@ -985,6 +948,21 @@
     <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.director.app' version='1.3.100.v20230630-1506'>
       <properties size='1'>
         <property name='download.size' value='63346'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.compiere.db.oracle.provider' version='12.0.0.202603030709'>
+      <properties size='1'>
+        <property name='download.size' value='43624'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.ecs' version='12.0.0.202603030709'>
+      <properties size='1'>
+        <property name='download.size' value='188582'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.adempiere.plugin.utils' version='12.0.0.202603030709'>
+      <properties size='1'>
+        <property name='download.size' value='47659'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='zkbind' version='10.0.1'>
@@ -1006,7 +984,7 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='wrapped.org.springframework.spring-context' version='5.3.27'>
       <properties size='1'>
-        <property name='download.size' value='1294091'/>
+        <property name='download.size' value='1294089'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='com.fasterxml.jackson.datatype.jackson-datatype-json-org' version='2.15.4'>
@@ -1032,6 +1010,11 @@
     <artifact classifier='osgi.bundle' id='com.fasterxml.jackson.module.jackson-module-jaxb-annotations' version='2.15.4'>
       <properties size='1'>
         <property name='download.size' value='36669'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.idempiere.ui.sso.oidc' version='12.0.0.202603030709'>
+      <properties size='1'>
+        <property name='download.size' value='1629221'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.tukaani.xz' version='1.9.0'>
@@ -1061,19 +1044,22 @@
         <property name='download.size' value='4208284'/>
       </properties>
     </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.adempiere.pipo.feature' version='12.0.0.202603030709'>
+      <properties size='1'>
+        <property name='download.size' value='746'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.core.expressions' version='3.9.100.v20230726-0617'>
       <properties size='1'>
         <property name='download.size' value='97362'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.adempiere.ui' version='12.0.0.202603041146'>
-      <properties size='1'>
-        <property name='download.size' value='992324'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='wrapped.com.sun.net.httpserver.http' version='20070405.0.0'>
       <properties size='1'>
-        <property name='download.size' value='82359'/>
+        <property name='download.size' value='82358'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.jetty.quic.common' version='12.0.25'>
@@ -1093,17 +1079,12 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='wrapped.org.jfree.jfreechart' version='1.0.19'>
       <properties size='1'>
-        <property name='download.size' value='1578067'/>
+        <property name='download.size' value='1578068'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='groovy-xml' version='3.0.8'>
       <properties size='1'>
         <property name='download.size' value='293405'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.adempiere.report.jasper' version='12.0.0.202603041146'>
-      <properties size='1'>
-        <property name='download.size' value='55661'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.w3c.css.sac' version='1.3.1.v200903091627'>
@@ -1116,6 +1097,11 @@
         <property name='download.size' value='34476'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.adempiere.base.process' version='12.0.0.202603030709'>
+      <properties size='1'>
+        <property name='download.size' value='776683'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.ecf.filetransfer' version='5.1.102.v20210409-2301'>
       <properties size='1'>
         <property name='download.size' value='53781'/>
@@ -1123,7 +1109,7 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='wrapped.org.apache.poi.poi-ooxml' version='5.2.2'>
       <properties size='1'>
-        <property name='download.size' value='1995918'/>
+        <property name='download.size' value='1995917'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.apache.ant' version='1.10.12.v20211102-1452'>
@@ -1139,11 +1125,6 @@
         <property name='download.size' value='115638'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.idempiere.hazelcast.service' version='12.0.0.202603041146'>
-      <properties size='1'>
-        <property name='download.size' value='14938097'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.equinox.registry' version='3.11.300.v20230801-1826'>
       <properties size='1'>
         <property name='download.size' value='202970'/>
@@ -1154,14 +1135,9 @@
         <property name='download.size' value='19458'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.apache.ecs' version='12.0.0.202603041146'>
-      <properties size='1'>
-        <property name='download.size' value='188584'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='wrapped.org.springframework.spring-aop' version='5.3.27'>
       <properties size='1'>
-        <property name='download.size' value='389656'/>
+        <property name='download.size' value='389654'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.core.jobs' version='3.15.0.v20230808-1403'>
@@ -1174,30 +1150,14 @@
         <property name='download.size' value='73405'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.adempiere.ui.zk' version='12.0.0.202603041146'>
-      <properties size='1'>
-        <property name='download.size' value='10998689'/>
-      </properties>
-      <repositoryProperties size='1'>
-        <property name='artifact.folder' value='true'/>
-      </repositoryProperties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.jetty.ee' version='12.0.25'>
       <properties size='1'>
         <property name='download.size' value='4573'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.idempiere.felix.webconsole' version='12.0.0.202603041146'>
-      <properties size='1'>
-        <property name='download.size' value='13807'/>
-      </properties>
-      <repositoryProperties size='1'>
-        <property name='artifact.folder' value='true'/>
-      </repositoryProperties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='wrapped.org.apache.xmlgraphics.xmlgraphics-commons' version='2.6.0'>
       <properties size='1'>
-        <property name='download.size' value='682697'/>
+        <property name='download.size' value='682696'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.jetty.ee8.websocket.servlet' version='12.0.25'>
@@ -1207,25 +1167,12 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='wrapped.org.apache.lucene.lucene-core' version='8.4.1'>
       <properties size='1'>
-        <property name='download.size' value='3335785'/>
+        <property name='download.size' value='3335784'/>
       </properties>
-    </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='org.adempiere.report.jasper.feature' version='12.0.0.202603041146'>
-      <properties size='1'>
-        <property name='download.size' value='1085'/>
-      </properties>
-      <repositoryProperties size='1'>
-        <property name='artifact.folder' value='true'/>
-      </repositoryProperties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.apache.xml.serializer' version='2.7.2.v20220406-0601'>
       <properties size='1'>
         <property name='download.size' value='300589'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.adempiere.plugin.utils' version='12.0.0.202603041146'>
-      <properties size='1'>
-        <property name='download.size' value='47661'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.equinox.simpleconfigurator' version='1.4.300.v20230630-1506'>
@@ -1233,27 +1180,9 @@
         <property name='download.size' value='50222'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.adempiere.install' version='12.0.0.202603041146'>
-      <properties size='1'>
-        <property name='download.size' value='166368'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.compiere.db.postgresql.provider' version='12.0.0.202603041146'>
-      <properties size='1'>
-        <property name='download.size' value='56155'/>
-      </properties>
-    </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='org.adempiere.ui.zk.feature' version='12.0.0.202603041146'>
-      <properties size='1'>
-        <property name='download.size' value='786'/>
-      </properties>
-      <repositoryProperties size='1'>
-        <property name='artifact.folder' value='true'/>
-      </repositoryProperties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='wrapped.com.zaxxer.SparseBitSet' version='1.2.0'>
       <properties size='1'>
-        <property name='download.size' value='25210'/>
+        <property name='download.size' value='25211'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.glassfish.jersey.core.jersey-server' version='2.34.0'>
@@ -1288,11 +1217,6 @@
         <property name='download.size' value='307590'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.adempiere.replication' version='12.0.0.202603041146'>
-      <properties size='1'>
-        <property name='download.size' value='40602'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.jetty.quic.quic-quiche-common' version='12.0.25'>
       <properties size='1'>
         <property name='download.size' value='22195'/>
@@ -1300,7 +1224,7 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='wrapped.org.dom4j.dom4j' version='2.1.3'>
       <properties size='1'>
-        <property name='download.size' value='327737'/>
+        <property name='download.size' value='327738'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.metadata.repository' version='1.5.100.v20230630-1506'>
@@ -1325,6 +1249,14 @@
         <property name='download.size' value='844961'/>
       </properties>
     </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.adempiere.replication.server.feature' version='12.0.0.202603030709'>
+      <properties size='1'>
+        <property name='download.size' value='769'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.apache.cxf.cxf-rt-rs-service-description' version='3.6.5'>
       <properties size='1'>
         <property name='download.size' value='59525'/>
@@ -1348,11 +1280,6 @@
     <artifact classifier='osgi.bundle' id='org.jvnet.mimepull' version='1.9.14'>
       <properties size='1'>
         <property name='download.size' value='64799'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.idempiere.zk.billboard' version='12.0.0.202603041146'>
-      <properties size='1'>
-        <property name='download.size' value='526568'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.apache.commons.digester' version='2.1.0'>
@@ -1382,17 +1309,9 @@
         <property name='download.size' value='38439'/>
       </properties>
     </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='org.idempiere.hazelcast.service.feature' version='12.0.0.202603041146'>
-      <properties size='1'>
-        <property name='download.size' value='728'/>
-      </properties>
-      <repositoryProperties size='1'>
-        <property name='artifact.folder' value='true'/>
-      </repositoryProperties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='wrapped.org.jfree.jcommon' version='1.0.24'>
       <properties size='1'>
-        <property name='download.size' value='335223'/>
+        <property name='download.size' value='335224'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.equinox.cm' version='1.5.200.v20230120-0604'>
@@ -1400,11 +1319,24 @@
         <property name='download.size' value='81977'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.adempiere.ui.zk' version='12.0.0.202603030709'>
+      <properties size='1'>
+        <property name='download.size' value='10998685'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.osgi.util.function' version='1.2.0.202109301733'>
       <properties size='3'>
         <property name='pgp.signatures' value='-----BEGIN PGP SIGNATURE-----&#xA;&#xA;iQIzBAABCAAdFiEEnjBEBxt1jry35FZzcA5PObwFNksFAmT0ncQACgkQcA5PObwF&#xA;NkuRMg//cnr4HaDg9JBZbjl0sPUTYicuvHpl7JM5EfvxB+0k8RwbUsIE3sPfSM2M&#xA;6P67AR9y9TUd8+SdMXtAyz+gHoS2TnB/ANRj5xbrHR0izf08oR/zHpRZWnEIPxCW&#xA;Jz5LrsjsbW6aI6rak12PnDY6bCTlNxhEoOrMuu1CgkRSCy8IUjPtgi27haw0esq8&#xA;sPfK283uoHxsMEVwKUzWWVE31LQxnCoGCF/h9s8uVuMpiu3y4jiWWEU/klnUOhoz&#xA;MWcrZq74eAl1senxoIJiHwcrgWSug4BpRUZWzLupD6nC6y39iDWLlL/2+XoZplhH&#xA;4UnX2sr4RKsyzb/cBr3fMVDAL1QWIAdHRjkdkWqZ5gU/3qFGdpscSz9f++v9bk7X&#xA;mw0uaaMlrg1GXomkbMb/xSOGtraSxFOQ3e8CpJ15oZb4TIFyYDhu3n8Xn9YNwN6W&#xA;fCHxtO1tGfQocHaXzxG1p/xhu82cn7x8OZ76hozNPxqE+bRUXOPbbYZzl4v/cRtJ&#xA;WGQi3uyFRfU68qnwxRXo8Gin51HzlDc26opreB5p+NSFmS1ayhO8C196wY43PUWw&#xA;+MC+BGuqTg2Xqd/gaBawQywJMlULqUfTgJM2ciCejEVYhzmzf4MbDaH1ujlhc19e&#xA;Ye99+3ixBph6UdWsu5yYlbw8vjrqZyWetQgzGNSj/hzrqM+VF9U=&#xA;=3c37&#xA;-----END PGP SIGNATURE-----'/>
         <property name='pgp.publicKeys' value='-----BEGIN PGP MESSAGE-----&#xA;Version: BCPG v1.77.00&#xA;&#xA;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&#xA;=xtSl&#xA;-----END PGP MESSAGE-----'/>
         <property name='download.size' value='23641'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.idempiere.hazelcast.service' version='12.0.0.202603030709'>
+      <properties size='1'>
+        <property name='download.size' value='14938095'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='bcpkix' version='1.81.0.redhat-00001'>
@@ -1422,11 +1354,6 @@
         <property name='download.size' value='172312'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.idempiere.printformat.editor' version='12.0.0.202603041146'>
-      <properties size='1'>
-        <property name='download.size' value='45550'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.jetty.ee8.websocket.javax.common' version='12.0.25'>
       <properties size='1'>
         <property name='download.size' value='112516'/>
@@ -1442,22 +1369,24 @@
         <property name='download.size' value='21295'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.adempiere.server' version='12.0.0.202603041146'>
+    <artifact classifier='osgi.bundle' id='org.idempiere.keikai' version='12.0.0.202603030709'>
       <properties size='1'>
-        <property name='download.size' value='591283'/>
+        <property name='download.size' value='19749296'/>
       </properties>
-      <repositoryProperties size='1'>
-        <property name='artifact.folder' value='true'/>
-      </repositoryProperties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.glassfish.pfl.pfl-basic' version='4.1.2'>
       <properties size='1'>
         <property name='download.size' value='209737'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.adempiere.base' version='12.0.0.202603030709'>
+      <properties size='1'>
+        <property name='download.size' value='9558262'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='wrapped.org.apache.activemq.activemq-kahadb-store' version='5.16.7'>
       <properties size='1'>
-        <property name='download.size' value='699009'/>
+        <property name='download.size' value='699013'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='groovy-console' version='3.0.8'>
@@ -1497,6 +1426,19 @@
         <property name='download.size' value='132109'/>
       </properties>
     </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.idempiere.webservices.client.feature' version='12.0.0.202603030709'>
+      <properties size='1'>
+        <property name='download.size' value='1116'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.compiere.db.postgresql.provider' version='12.0.0.202603030709'>
+      <properties size='1'>
+        <property name='download.size' value='56153'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='com.sun.istack.commons-runtime' version='3.0.12'>
       <properties size='1'>
         <property name='download.size' value='29807'/>
@@ -1511,6 +1453,14 @@
       <properties size='1'>
         <property name='download.size' value='864700'/>
       </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.adempiere.ui.zk.feature' version='12.0.0.202603030709'>
+      <properties size='1'>
+        <property name='download.size' value='785'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.apache.cxf.cxf-rt-frontend-jaxrs' version='3.6.5'>
       <properties size='1'>
@@ -1539,13 +1489,10 @@
         <property name='download.size' value='444748'/>
       </properties>
     </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='org.idempiere.bouncy.castle.feature' version='12.0.0.202603041146'>
+    <artifact classifier='osgi.bundle' id='org.adempiere.install' version='12.0.0.202603030709'>
       <properties size='1'>
-        <property name='download.size' value='717'/>
+        <property name='download.size' value='166365'/>
       </properties>
-      <repositoryProperties size='1'>
-        <property name='artifact.folder' value='true'/>
-      </repositoryProperties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.equinox.http.servletbridge' version='1.2.200.v20220710-1223'>
       <properties size='1'>
@@ -1562,6 +1509,11 @@
         <property name='download.size' value='117947'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.adempiere.eclipse.equinox.http.servlet' version='12.0.0.202603030709'>
+      <properties size='1'>
+        <property name='download.size' value='54602'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.touchpoint.natives' version='1.5.100.v20230630-1506'>
       <properties size='1'>
         <property name='download.size' value='91132'/>
@@ -1576,6 +1528,14 @@
       <properties size='1'>
         <property name='download.size' value='31362'/>
       </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.idempiere.felix.webconsole.feature' version='12.0.0.202603030709'>
+      <properties size='1'>
+        <property name='download.size' value='765'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.apache.servicemix.bundles.batik' version='1.16.0.1'>
       <properties size='1'>
@@ -1629,6 +1589,11 @@
         <property name='download.size' value='51934'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.adempiere.ui' version='12.0.0.202603030709'>
+      <properties size='1'>
+        <property name='download.size' value='992319'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.apache.cxf.cxf-core' version='3.6.5'>
       <properties size='1'>
         <property name='download.size' value='1459228'/>
@@ -1664,14 +1629,6 @@
         <property name='download.size' value='414'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.idempiere.webservices' version='12.0.0.202603041146'>
-      <properties size='1'>
-        <property name='download.size' value='191100'/>
-      </properties>
-      <repositoryProperties size='1'>
-        <property name='artifact.folder' value='true'/>
-      </repositoryProperties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='com.sun.xml.fastinfoset.FastInfoset' version='1.2.18.v202109010034'>
       <properties size='1'>
         <property name='download.size' value='317486'/>
@@ -1680,11 +1637,6 @@
     <artifact classifier='osgi.bundle' id='org.eclipse.jetty.osgi' version='12.0.25'>
       <properties size='1'>
         <property name='download.size' value='59957'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.adempiere.base.process' version='12.0.0.202603041146'>
-      <properties size='1'>
-        <property name='download.size' value='776684'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='wrapped.org.apache.cxf.cxf-rt-ws-transfer' version='3.6.5'>
@@ -1726,18 +1678,18 @@
         <property name='download.size' value='36679'/>
       </properties>
     </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='org.idempiere.eclipse.platform.feature' version='12.0.0.202603041146'>
-      <properties size='1'>
-        <property name='download.size' value='2049'/>
-      </properties>
-      <repositoryProperties size='1'>
-        <property name='artifact.folder' value='true'/>
-      </repositoryProperties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.osgi' version='3.18.500.v20230801-1826'>
       <properties size='1'>
         <property name='download.size' value='1541578'/>
       </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.adempiere.server' version='12.0.0.202603030709'>
+      <properties size='1'>
+        <property name='download.size' value='591281'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.apache.commons.commons-net' version='3.8.0'>
       <properties size='1'>
@@ -1749,24 +1701,32 @@
         <property name='download.size' value='79320'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.idempiere.tablepartition' version='12.0.0.202603030709'>
+      <properties size='1'>
+        <property name='download.size' value='14066'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.glassfish.jersey.inject.jersey-hk2' version='2.34.0'>
       <properties size='1'>
         <property name='download.size' value='76818'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.adempiere.base' version='12.0.0.202603041146'>
+    <artifact classifier='osgi.bundle' id='org.idempiere.printformat.editor' version='12.0.0.202603030709'>
       <properties size='1'>
-        <property name='download.size' value='9558265'/>
+        <property name='download.size' value='45549'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.idempiere.keikai' version='12.0.0.202603041146'>
+    <artifact classifier='org.eclipse.update.feature' id='org.adempiere.payment.processor.feature' version='12.0.0.202603030709'>
       <properties size='1'>
-        <property name='download.size' value='19749298'/>
+        <property name='download.size' value='722'/>
       </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
     </artifact>
     <artifact classifier='osgi.bundle' id='wrapped.io.opencensus.opencensus-api' version='0.28.0'>
       <properties size='1'>
-        <property name='download.size' value='358607'/>
+        <property name='download.size' value='358606'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.jetty.ee8.annotations' version='12.0.25'>
@@ -1774,23 +1734,10 @@
         <property name='download.size' value='81098'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.compiere.db.oracle.provider' version='12.0.0.202603041146'>
-      <properties size='1'>
-        <property name='download.size' value='43626'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.jetty.xml' version='12.0.25'>
       <properties size='1'>
         <property name='download.size' value='87171'/>
       </properties>
-    </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='org.adempiere.replication.server.feature' version='12.0.0.202603041146'>
-      <properties size='1'>
-        <property name='download.size' value='772'/>
-      </properties>
-      <repositoryProperties size='1'>
-        <property name='artifact.folder' value='true'/>
-      </repositoryProperties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.objectweb.asm.util' version='9.8.0'>
       <properties size='1'>
@@ -1816,14 +1763,6 @@
       <properties size='1'>
         <property name='download.size' value='50720'/>
       </properties>
-    </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='org.idempiere.webservices.client.feature' version='12.0.0.202603041146'>
-      <properties size='1'>
-        <property name='download.size' value='1117'/>
-      </properties>
-      <repositoryProperties size='1'>
-        <property name='artifact.folder' value='true'/>
-      </repositoryProperties>
     </artifact>
     <artifact classifier='osgi.bundle' id='com.github.librepdf.openpdf-fonts-extra' version='1.3.39'>
       <properties size='1'>
@@ -1877,14 +1816,6 @@
         <property name='download.size' value='33607'/>
       </properties>
     </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='org.compiere.db.provider.feature' version='12.0.0.202603041146'>
-      <properties size='1'>
-        <property name='download.size' value='873'/>
-      </properties>
-      <repositoryProperties size='1'>
-        <property name='artifact.folder' value='true'/>
-      </repositoryProperties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.director' version='2.6.100.v20230718-0609'>
       <properties size='1'>
         <property name='download.size' value='115828'/>
@@ -1907,6 +1838,14 @@
         <property name='download.size' value='52254'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.idempiere.zk.iceblue_c.theme' version='12.0.0.202603030709'>
+      <properties size='1'>
+        <property name='download.size' value='329316'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.apache.commons.commons-collections4' version='4.4.0'>
       <properties size='1'>
         <property name='download.size' value='751914'/>
@@ -1918,6 +1857,14 @@
         <property name='pgp.publicKeys' value='-----BEGIN PGP MESSAGE-----&#xA;Version: BCPG v1.77.00&#xA;&#xA;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&#xA;=xtSl&#xA;-----END PGP MESSAGE-----'/>
         <property name='download.size' value='137098'/>
       </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.compiere.db.provider.feature' version='12.0.0.202603030709'>
+      <properties size='1'>
+        <property name='download.size' value='872'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.text' version='3.13.100.v20230801-1334'>
       <properties size='1'>
@@ -1936,14 +1883,22 @@
         <property name='download.size' value='26354'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.idempiere.zk.breeze.theme' version='12.0.0.202603030709'>
+      <properties size='1'>
+        <property name='download.size' value='321087'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.apache.servicemix.bundles.xerces' version='2.12.1.1'>
       <properties size='1'>
         <property name='download.size' value='3473181'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.adempiere.report.jasper.library' version='12.0.0.202603041146'>
+    <artifact classifier='osgi.bundle' id='org.idempiere.zk.billboard' version='12.0.0.202603030709'>
       <properties size='1'>
-        <property name='download.size' value='4021261'/>
+        <property name='download.size' value='526567'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.apache.cxf.cxf-rt-rs-extension-providers' version='3.6.3'>
@@ -2001,6 +1956,14 @@
         <property name='download.size' value='87255'/>
       </properties>
     </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.idempiere.eclipse.platform.feature' version='12.0.0.202603030709'>
+      <properties size='1'>
+        <property name='download.size' value='2048'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.core.contenttype' version='3.9.100.v20230630-1232'>
       <properties size='1'>
         <property name='download.size' value='104944'/>
@@ -2008,7 +1971,7 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='wrapped.org.springframework.spring-web' version='5.3.27'>
       <properties size='1'>
-        <property name='download.size' value='1664107'/>
+        <property name='download.size' value='1664108'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='groovy-nio' version='3.0.8'>
@@ -2031,6 +1994,11 @@
     <artifact classifier='osgi.bundle' id='org.osgi.util.tracker' version='1.5.4.202109301733'>
       <properties size='1'>
         <property name='download.size' value='44033'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.idempiere.zk.pivot' version='12.0.0.202603030709'>
+      <properties size='1'>
+        <property name='download.size' value='36040'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.core' version='2.10.100.v20230814-2013'>
@@ -2077,6 +2045,14 @@
         <property name='download.size' value='15392'/>
       </properties>
     </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.adempiere.report.jasper.feature' version='12.0.0.202603030709'>
+      <properties size='1'>
+        <property name='download.size' value='1081'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.touchpoint.eclipse' version='2.4.100.v20230630-1506'>
       <properties size='1'>
         <property name='download.size' value='138779'/>
@@ -2092,19 +2068,9 @@
         <property name='download.size' value='497672'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.adempiere.payment.processor' version='12.0.0.202603041146'>
-      <properties size='1'>
-        <property name='download.size' value='164277'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='slf4j.jdk14' version='2.0.12'>
       <properties size='1'>
         <property name='download.size' value='10434'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.adempiere.base.callout' version='12.0.0.202603041146'>
-      <properties size='1'>
-        <property name='download.size' value='130693'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.apache.cxf.cxf-rt-transports-http' version='3.6.5'>
@@ -2126,7 +2092,7 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='wrapped.org.springframework.spring-context-support' version='5.3.27'>
       <properties size='1'>
-        <property name='download.size' value='190777'/>
+        <property name='download.size' value='190775'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.jetty.ee8.osgi.boot' version='12.0.25'>
@@ -2141,7 +2107,7 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='wrapped.com.sun.org.apache.xml.internal.resolver' version='20050927.0.0'>
       <properties size='1'>
-        <property name='download.size' value='68827'/>
+        <property name='download.size' value='68825'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.osgi.util.xml' version='1.0.2.202109301733'>
@@ -2161,6 +2127,14 @@
         <property name='download.size' value='140376'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.idempiere.webservices' version='12.0.0.202603030709'>
+      <properties size='1'>
+        <property name='download.size' value='281744'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='javax.interceptor-api' version='1.2.2'>
       <properties size='1'>
         <property name='download.size' value='24819'/>
@@ -2170,6 +2144,14 @@
       <properties size='1'>
         <property name='download.size' value='657516'/>
       </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.idempiere.bouncy.castle.feature' version='12.0.0.202603030709'>
+      <properties size='1'>
+        <property name='download.size' value='715'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.glassfish.pfl.pfl-asm' version='4.1.0'>
       <properties size='1'>
@@ -2181,14 +2163,14 @@
         <property name='download.size' value='3051356'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.adempiere.eclipse.equinox.http.servlet' version='12.0.0.202603041146'>
-      <properties size='1'>
-        <property name='download.size' value='54603'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='wrapped.com.google.zxing.javase' version='3.4.1'>
       <properties size='1'>
         <property name='download.size' value='37776'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.idempiere.zk.extra' version='12.0.0.202603030709'>
+      <properties size='1'>
+        <property name='download.size' value='1299181'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.osgi.service.http.whiteboard' version='1.1.1.202109301733'>
@@ -2201,9 +2183,22 @@
         <property name='download.size' value='1506503'/>
       </properties>
     </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.adempiere.replication.feature' version='12.0.0.202603030709'>
+      <properties size='1'>
+        <property name='download.size' value='712'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.apache.ws.xmlschema.core' version='2.3.1'>
       <properties size='1'>
         <property name='download.size' value='173439'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.adempiere.pipo.handlers' version='12.0.0.202603030709'>
+      <properties size='1'>
+        <property name='download.size' value='219702'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.equinox.http.registry' version='1.3.300.v20230630-1303'>
@@ -2239,6 +2234,11 @@
     <artifact classifier='osgi.bundle' id='org.eclipse.equinox.concurrent' version='1.2.100.v20211021-1418'>
       <properties size='1'>
         <property name='download.size' value='27011'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.idempiere.zk.datatable' version='12.0.0.202603030709'>
+      <properties size='1'>
+        <property name='download.size' value='513111'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.osgi.service.upnp' version='1.2.1.202109301733'>

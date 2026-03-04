@@ -1,0 +1,9 @@
+*** 2026-03-04 13:02:27.424 idempiere Log (CLogFile) ***
+13:02:27.419 AnnotationBasedEventManager.lambda$0: DefaultAnnotationBasedEventManager loaded 3 classes in 0.252s [37]
+13:02:27.537 ConfigurationData.load: Defaults [1]
+13:02:28.382 AnnotationBasedModelFactory.lambda$0: AnnotationBasedModelFactory loaded 751 classes in 2.377s [23]
+13:02:30.156 Config.test: OK: JavaHome=/usr/lib/jvm/java-17-amazon-corretto [1]
+13:02:30.159 Config.test: OK: Version=17.0.18 [1]
+13:02:42.663 KeyStoreMgt.<init>: /opt/idempiere-server/jettyhome/etc/keystore [1]
+
+*** 2026-03-04 13:02:44.124 idempiere Log (CLogFile) ***

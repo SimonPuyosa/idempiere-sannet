@@ -1,0 +1,57 @@
+*** 2026-03-04 13:08:24.451 idempiere Log (CLogFile) ***
+13:08:24.446 Adempiere.startup: iDempiere(r) Release 12_2024-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2025 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [1]
+13:08:24.451 Ini.loadProperties: /opt/idempiere-server/idempiere.properties #29 [1]
+13:08:24.599 AnnotationBasedEventManager.lambda$0: DefaultAnnotationBasedEventManager loaded 3 classes in 0.337s [40]
+13:08:24.647-----------> Core.getKeyStore: Encryption with legacy key algorithm DES detected - it is recommended to migrate to a stronger algorithm [1]
+13:08:26.275-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 12.0.0.202603030709, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [1]
+13:08:26.630-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 12.0.0.202603030709, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [1]
+13:08:26.645 SignDatabaseBuildApplication.start: Sign Database Build [1]
+13:08:26.647 SignDatabaseBuildApplication.start: ------------------- [1]
+13:08:26.651 SignDatabaseBuildApplication.start: Version = 12.0.0.202603030709 [1]
+13:08:26.656 SignDatabaseBuildApplication.start: UPDATE AD_System SET LastBuildInfo = ? [1]
+13:08:26.671     BaseActivator.log: Weaving class org.slf4j.event.Level [48]
+13:08:26.675     BaseActivator.log: Weaving class org.slf4j.helpers.MessageFormatter [48]
+13:08:26.680     PreparedStatementProxy.invoke: Mar 4, 2026, 1:08:26 PM UTC,Update,AD_SYSTEM, (begin) [1]
+13:08:26.682     BaseActivator.log: Weaving class org.slf4j.helpers.NormalizedParameters [48]
+13:08:26.687     PreparedStatementProxy.invoke: Mar 4, 2026, 1:08:26 PM UTC,Update,AD_SYSTEM, (end) [1]
+13:08:26.692     BaseActivator.log: Weaving class org.slf4j.helpers.FormattingTuple [48]
+13:08:26.696     HikariPool.logPoolState: HikariPool-1 - After adding stats (total=8/90, idle=7/10, active=1, waiting=0) [48]
+13:08:26.697     PoolBase.newConnection: HikariPool-1 - Attempting to create/setup new connection (bd3622d1-3540-4956-88f8-63c6982c3d2e) [48]
+13:08:26.697     Driver.connect: Connecting with URL: {0} (jdbc:postgresql://marselladatabase.postgres.database.azure.com:5432/sannet?encoding=UNICODE&ApplicationName=iDempiere&tcpKeepAlive=true) [48]
+13:08:26.699     PgConnection.<init>: PostgreSQL JDBC Driver 42.7.8 [48]
+13:08:26.699     PgConnection.setDefaultFetchSize:   setDefaultFetchSize = {0} (0) [48]
+13:08:26.701     PgConnection.setPrepareThreshold:   setPrepareThreshold = {0} (5) [48]
+13:08:26.701     ConnectionFactoryImpl.openConnectionImpl: Trying to establish a protocol version 3 connection to {0} (marselladatabase.postgres.database.azure.com:5432) [48]
+13:08:26.706     ConnectionFactoryImpl.tryConnect: Receive Buffer Size is {0} (65536) [48]
+13:08:26.709     ConnectionFactoryImpl.tryConnect: Send Buffer Size is {0} (43520) [48]
+13:08:26.711     MakeSSL.convert: converting regular socket connection to ssl [48]
+13:08:26.770     PoolBase.newConnection: HikariPool-1 - Established new connection (bd3622d1-3540-4956-88f8-63c6982c3d2e) [48]
+13:08:26.772     HikariPool.call: HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3d3c65eb [48]
+13:08:26.805     HikariPool.logPoolState: HikariPool-1 - After adding stats (total=9/90, idle=9/10, active=0, waiting=0) [48]
+13:08:26.805     PoolBase.newConnection: HikariPool-1 - Attempting to create/setup new connection (8dc7f1b6-73b1-47ea-96b1-22062508ac2b) [48]
+13:08:26.807     Driver.connect: Connecting with URL: {0} (jdbc:postgresql://marselladatabase.postgres.database.azure.com:5432/sannet?encoding=UNICODE&ApplicationName=iDempiere&tcpKeepAlive=true) [48]
+13:08:26.808     PgConnection.<init>: PostgreSQL JDBC Driver 42.7.8 [48]
+13:08:26.809     PgConnection.setDefaultFetchSize:   setDefaultFetchSize = {0} (0) [48]
+13:08:26.810     PgConnection.setPrepareThreshold:   setPrepareThreshold = {0} (5) [48]
+13:08:26.810     ConnectionFactoryImpl.openConnectionImpl: Trying to establish a protocol version 3 connection to {0} (marselladatabase.postgres.database.azure.com:5432) [48]
+13:08:26.812     ConnectionFactoryImpl.tryConnect: Receive Buffer Size is {0} (65536) [48]
+13:08:26.813     ConnectionFactoryImpl.tryConnect: Send Buffer Size is {0} (43520) [48]
+13:08:26.815     MakeSSL.convert: converting regular socket connection to ssl [48]
+13:08:26.835     BaseActivator.log: Unregistered: {org.apache.logging.log4j.util.PropertySource}={serviceloader.mediator=107, service.id=40, service.bundleid=54, service.scope=bundle, .org.apache.aries.spifly.provider.implclass=org.apache.logging.log4j.util.EnvironmentPropertySource, .org.apache.aries.spifly.provider.discovery.mode=SERVICELOADER_CAPABILITIES} [50]
+13:08:26.836     BaseActivator.log: Unregistered: {org.apache.logging.log4j.util.PropertySource}={serviceloader.mediator=107, service.id=41, service.bundleid=54, service.scope=bundle, .org.apache.aries.spifly.provider.implclass=org.apache.logging.log4j.util.SystemPropertiesPropertySource, .org.apache.aries.spifly.provider.discovery.mode=SERVICELOADER_CAPABILITIES} [50]
+13:08:26.838     BaseActivator.log: Unregistered: {org.apache.logging.log4j.spi.Provider}={serviceloader.mediator=107, service.id=36, service.bundleid=55, service.scope=bundle, .org.apache.aries.spifly.provider.implclass=org.apache.logging.slf4j.SLF4JProvider, .org.apache.aries.spifly.provider.discovery.mode=SERVICELOADER_CAPABILITIES} [50]
+13:08:26.840     BaseActivator.log: Unregistered: {org.slf4j.spi.SLF4JServiceProvider}={serviceloader.mediator=107, service.id=35, service.bundleid=44, service.scope=bundle, .org.apache.aries.spifly.provider.implclass=org.slf4j.jul.JULServiceProvider, .org.apache.aries.spifly.provider.discovery.mode=SERVICELOADER_CAPABILITIES, type=jul} [50]
+13:08:26.871     PoolBase.newConnection: HikariPool-1 - Established new connection (8dc7f1b6-73b1-47ea-96b1-22062508ac2b) [48]
+13:08:26.871     HikariPool.call: HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@61dc4d02 [48]
+13:08:26.902     HikariPool.logPoolState: HikariPool-1 - After adding stats (total=10/90, idle=10/10, active=0, waiting=0) [48]
+13:08:26.903     HikariPool.logPoolState: HikariPool-1 - Connection not added, stats (total=10/90, idle=10/10, active=0, waiting=0) [48]
+
+*** 2026-03-04 13:08:27.012 idempiere Log (CLogFile) ***
