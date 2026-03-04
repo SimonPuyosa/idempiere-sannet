@@ -1,0 +1,27 @@
+
+-Xms64M -Xmx512M
+/opt/idempiere-server
+adempiere
+Sannet
+Sannet
+Sannet
+Caracas
+Distrito_Capital
+VE
+0.0.0.0
+8080
+8443
+y
+2
+marselladatabase.postgres.database.azure.com
+5432
+sannet
+adempiere
+adempiere
+Caracas24.
+
+
+
+
+
+
