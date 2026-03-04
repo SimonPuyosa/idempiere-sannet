@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config date="1772624933947" transient="false">
+	<site updateable="true" url="platform:/base/" enabled="true" policy="USER-EXCLUDE">
+		<feature id="org.adempiere.replication.feature" version="12.0.0.202603041146" url="features/org.adempiere.replication.feature_12.0.0.202603041146/">
+		</feature>
+		<feature id="org.compiere.db.provider.feature" version="12.0.0.202603041146" url="features/org.compiere.db.provider.feature_12.0.0.202603041146/">
+		</feature>
+		<feature id="org.idempiere.eclipse.platform.feature" version="12.0.0.202603041146" url="features/org.idempiere.eclipse.platform.feature_12.0.0.202603041146/">
+		</feature>
+		<feature id="org.idempiere.hazelcast.service.feature" version="12.0.0.202603041146" url="features/org.idempiere.hazelcast.service.feature_12.0.0.202603041146/">
+		</feature>
+		<feature id="org.adempiere.payment.processor.feature" version="12.0.0.202603041146" url="features/org.adempiere.payment.processor.feature_12.0.0.202603041146/">
+		</feature>
+		<feature id="org.idempiere.webservices.feature" version="12.0.0.202603041146" url="features/org.idempiere.webservices.feature_12.0.0.202603041146/">
+		</feature>
+		<feature id="org.adempiere.replication.server.feature" version="12.0.0.202603041146" url="features/org.adempiere.replication.server.feature_12.0.0.202603041146/">
+		</feature>
+		<feature id="org.adempiere.server.feature" version="12.0.0.202603041146" url="features/org.adempiere.server.feature_12.0.0.202603041146/">
+		</feature>
+		<feature id="org.adempiere.base.feature" version="12.0.0.202603041146" url="features/org.adempiere.base.feature_12.0.0.202603041146/">
+		</feature>
+		<feature id="org.idempiere.felix.webconsole.feature" version="12.0.0.202603041146" url="features/org.idempiere.felix.webconsole.feature_12.0.0.202603041146/">
+		</feature>
+		<feature id="org.idempiere.webservices.client.feature" version="12.0.0.202603041146" url="features/org.idempiere.webservices.client.feature_12.0.0.202603041146/">
+		</feature>
+		<feature id="org.adempiere.report.jasper.feature" version="12.0.0.202603041146" url="features/org.adempiere.report.jasper.feature_12.0.0.202603041146/">
+		</feature>
+		<feature id="org.adempiere.ui.zk.feature" version="12.0.0.202603041146" url="features/org.adempiere.ui.zk.feature_12.0.0.202603041146/">
+		</feature>
+		<feature id="org.idempiere.bouncy.castle.feature" version="12.0.0.202603041146" url="features/org.idempiere.bouncy.castle.feature_12.0.0.202603041146/">
+		</feature>
+		<feature id="org.idempiere.equinox.p2.director.feature" version="12.0.0.202603041146" url="features/org.idempiere.equinox.p2.director.feature_12.0.0.202603041146/">
+		</feature>
+		<feature id="org.idempiere.zk.feature" version="12.0.0.202603041146" url="features/org.idempiere.zk.feature_12.0.0.202603041146/">
+		</feature>
+		<feature id="org.adempiere.pipo.feature" version="12.0.0.202603041146" url="features/org.adempiere.pipo.feature_12.0.0.202603041146/">
+		</feature>
+	</site>
+</config>
